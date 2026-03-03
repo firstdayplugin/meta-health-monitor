@@ -1,0 +1,115 @@
+/* =========================
+   Dashboard Wrapper
+========================= */
+
+.wmhm-dashboard h1 {
+    margin-bottom: 15px;
+}
+
+/* =========================
+   Health Score Card
+========================= */
+
+.wmhm-health-score {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.wmhm-health-score h2 {
+    margin-top: 0;
+}
+
+.wmhm-score-number {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.wmhm-score-label {
+    font-size: 14px;
+    margin: 5px 0 15px;
+    font-weight: 600;
+}
+
+/* =========================
+   Progress Bar
+========================= */
+
+.wmhm-progress-wrap {
+    background: #e5e5e5;
+    height: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.wmhm-progress-bar {
+    height: 100%;
+    transition: width .4s ease;
+}
+
+/* =========================
+   Highlight Heavy Rows
+========================= */
+
+.wmhm-highlight {
+    background: #fff8e1 !important;
+}
+
+/* =========================
+   Tables spacing tweak
+========================= */
+
+.wmhm-dashboard .widefat {
+    margin-top: 10px;
+}
+
+
+/* ===== Stats Row ===== */
+
+.wmhm-stats-row {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0 30px;
+}
+
+.wmhm-stat-box {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    padding: 15px 20px;
+    border-radius: 4px;
+    min-width: 220px;
+}
+
+.wmhm-stat-label {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.wmhm-stat-value {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.wmhm-insight-box {
+    background: #f0f6fc;
+    border-left: 4px solid #2271b1;
+    padding: 12px 15px;
+    margin: 25px 0;
+}
+
+/* ===== Header Layout ===== */
+
+.wmhm-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.wmhm-scan-form {
+    margin: 0;
+}
